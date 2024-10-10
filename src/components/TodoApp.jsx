@@ -20,7 +20,7 @@ export default function TodoApp(){
 
     return (
         <Container size="sm">
-        <Title style={{ textAlign: 'center', marginTop: 20 }}>Todo App</Title>
+        <Title style={{ textAlign: 'center', marginTop: 20 }}>Lista de Tareas</Title>
 
         <TodoForm nuevaTarea={addTask} />
 
